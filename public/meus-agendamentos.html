@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Agendamentos - Barbearia Estilo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">✂️ Barbearia Estilo</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="agendar.html">Agendar</a></li>
+                <li><a href="meus-agendamentos.html">Meus Agendamentos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Meus Agendamentos</h1>
+            <p>Consulte e gerencie seus agendamentos</p>
+        </div>
+
+        <div class="search-appointments">
+            <div class="form-group">
+                <label>Digite seu e-mail para consultar:</label>
+                <div class="search-box">
+                    <input type="email" id="searchEmail" placeholder="seu@email.com">
+                    <button id="searchBtn" class="btn-secondary">Consultar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="appointmentsList" class="appointments-list">
+            <!-- Agendamentos serão carregados aqui -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Barbearia Estilo - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
