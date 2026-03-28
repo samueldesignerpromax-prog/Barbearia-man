@@ -1,0 +1,8 @@
+{
+  "name": "barbearia-vercel",
+  "version": "1.0.0",
+  "description": "Sistema de agendamento para barbearia",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
