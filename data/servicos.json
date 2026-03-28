@@ -1,0 +1,53 @@
+{
+  "servicos": [
+    {
+      "id": 1,
+      "nome": "Corte de Cabelo",
+      "preco": 40,
+      "duracao": 30,
+      "descricao": "Corte tradicional ou moderno com finalização",
+      "icone": "✂️"
+    },
+    {
+      "id": 2,
+      "nome": "Barba",
+      "preco": 30,
+      "duracao": 25,
+      "descricao": "Barba feita com navalha e produtos premium",
+      "icone": "🧔"
+    },
+    {
+      "id": 3,
+      "nome": "Corte + Barba",
+      "preco": 60,
+      "duracao": 50,
+      "descricao": "Pacote completo com desconto especial",
+      "icone": "⚡"
+    },
+    {
+      "id": 4,
+      "nome": "Pigmentação",
+      "preco": 50,
+      "duracao": 40,
+      "descricao": "Pigmentação para barba e cabelo",
+      "icone": "🎨"
+    },
+    {
+      "id": 5,
+      "nome": "Hidratação Capilar",
+      "preco": 45,
+      "duracao": 35,
+      "descricao": "Hidratação profunda para cabelos",
+      "icone": "💧"
+    },
+    {
+      "id": 6,
+      "nome": "Sobrancelha",
+      "preco": 20,
+      "duracao": 15,
+      "descricao": "Design e acabamento de sobrancelhas",
+      "icone": "👁️"
+    }
+  ],
+  "horarios": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00", "17:00"]
+}
